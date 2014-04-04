@@ -4,9 +4,9 @@ CoreDataManager is a simply fast using CoreData sample, please see the source co
 
 ## Sample Code
 
+``` objective-c
 #import "CoreDataManager.h"
 
-``` objective-c
 static NSString *_kEntityName = @"Songs";
 
 @implementation Songs (fixCoreData)
