@@ -1,12 +1,14 @@
-## About
+//
+//  Songs.m
+//  MusicPlayer
+//
+//  Created by Kalvar on 2014/1/1.
+//  Copyright (c) 2014年 Kalvar. All rights reserved.
+//
 
-CoreDataManager is a simply fast using CoreData sample, please see the source code.
-
-## Sample Code
-
+#import "Songs.h"
 #import "CoreDataManager.h"
 
-``` objective-c
 static NSString *_kEntityName = @"Songs";
 
 @implementation Songs (fixCoreData)
@@ -122,9 +124,5 @@ static NSString *_kEntityName = @"Songs";
     [_managedObjectContext save:nil];
 }
 
+
 @end
-```
-
-## License
-
-MIT.
